@@ -1,0 +1,49 @@
+n c#, we have different formats to format the object values using the Format() method. The following table lists the different types of date-time formats available in c# to format the given date-time values. Generally, the Date/Time formats depend on the user locale, so that the output may differ.
+
+ 
+Character	Description	Usage	Example
+d 	Short Date 	{0:d} 	29-05-2018
+D 	Long Date 	{0:D} 	29 May 2018
+t 	Short Time 	{0:t} 	05:29:20
+T 	Long Time 	{0:T} 	05:29:20
+f or F 	Long Date Time 	{0:f} 	29 May 2018 05:30:08
+g or G 	Short Date Time 	{0:g} 	29-05-2018 05:31:42
+M 	Short Date 	{0:M} 	May 29
+r 	RFC1123 Date Time String 	{0:r} 	Tue, 29 May 2018 05:33:02 GMT
+s 	Sortable Date/Time 	{0:s} 	2018-05-29T05:34:10
+u 	Universal Sortable Date 	{0:u} 	2018-05-29 05:35:47Z
+U 	Universal full date 	{0:U} 	29 May 2018 00:08:07
+Y 	Year month pattern 	{0:Y} 	May, 2018
+C# Number Formats
+
+The following table lists the different types of number formats available in c# to format the given numerical values. For example, we are passing the decimal value is 75674.73789621.
+
+ 
+Character	Description	Usage	Example
+c 	Currency 	{0:c} 	$ 75,674.74
+e 	Scientific 	{0:e} 	7.567474e+004
+f 	Fixed Point 	{0:f} 	75674.74
+g 	General 	{0:g} 	75674.73789621
+n 	Thousand Separator 	{0:n} 	75,674.74
+C# Custom Formats
+
+In c#, we can also use custom formats to format the string. Following table lists the different type of custom formats which we can use to format the strings. For example, we are passing the decimal value is 75674.73789621.
+
+ 
+Character	Description	Usage	Example
+0 	Zero Placeholder 	{0:00.00} 	75674.74
+# 	Digit Placeholder 	{0:(#).##} 	(75674).74
+. 	Decimal Point 	{0:0.000} 	75674.738
+, 	Thousand Separator 	{0:0,0} 	75,675
+% 	Percent 	{0:0%} 	7567474%
+
+This is how you can use the string Format() method to insert format items into a given string and replace them with their respective values in the c# programming language.  
+ 
+ 
+Table of Contents
+
+    String Format Method in C# with Examples
+    C# String Format Method Example
+    C# Datetime Formats to Format String Values
+    C# Number & Custom Formats to Format String Values
+
